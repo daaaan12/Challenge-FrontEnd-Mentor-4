@@ -1,0 +1,191 @@
+/* 
+
+Front-end Style Guide
+Layout
+The designs were created to the following widths:
+
+Mobile: 375px
+Desktop: 1440px
+
+Colors
+Primary
+Dark cyan: hsl(185, 75%, 39%) 
+Very dark desaturated blue: hsl(229, 23%, 23%)
+Dark grayish blue: hsl(227, 10%, 46%)
+
+Neutral
+Dark gray: hsl(0, 0%, 59%)
+
+Typography
+Body Copy
+Font size (name and stats): 18px
+Font
+Family: Kumbh Sans
+Weights: 400, 700
+
+
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 2.5em;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 700;
+}
+
+.alinha-london {
+    display: flex;
+    justify-content: center;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 1.8em;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    position: relative;
+    top: 750px;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+body {
+    background-color: hsl(185, 75%, 39%);
+
+    background-image: url(./images/bg-pattern-bottom.svg);
+
+}
+
+#card {
+    background-color: white;
+    position: absolute;
+    width: 40%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+
+
+}
+
+#centralizador-texto {
+    display: grid;
+    justify-content: center;
+    position: relative;
+    top: -80px;
+
+
+}
+
+.gray {
+    color: gray;
+
+}
+
+.img-topo {
+    width: 100%;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.img-victor {
+    width: 30%;
+    border-radius: 50%;
+    border: 6px solid white;
+}
+
+.alinhador-victor {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: -100px;
+}
+
+#alinhador-social {
+
+    display: flex;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.social-texto {
+
+    font-size: 0.6em;
+    color: gray;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 200;
+}
+
+.social-numeros {
+    font-size: 3em;
+}
+
+
+@media (max-width: 375px) {
+
+    h1 {
+        font-size: 1.1em;
+    }
+
+    #card {
+        margin-top: 30px;
+        width: 80%;
+
+    }
+
+    #alinhador-social {
+
+        font-size: 0.5em;
+
+    }
+
+    .social-numeros {
+        font-size: 3em
+    }
+
+    #centralizador-texto {
+
+        max-width: 100px;
+        text-align: center;
+        position: relative;
+        top: -40px;
+        left: 100px;
+
+    }
+
+    .alinha-london {
+
+        margin-bottom: -10px;
+        font-size: 0.8em;
+    }
+
+    .alinhador-victor {
+
+        position: relative;
+        top: -50px;
+    }
+
+    .img-topo {
+        height: 150px;
+    }
+
+    .attribution {
+        font-size: 11px;
+        text-align: center;
+        position: relative;
+        top: 435px;
+    }
+
+
+
+
+}
