@@ -48,10 +48,9 @@ h1 {
 }
 
 .attribution {
-    font-size: 11px;
+    font-size: 1em;
     text-align: center;
-    position: relative;
-    top: 750px;
+    
 }
 
 .attribution a {
@@ -60,7 +59,6 @@ h1 {
 
 body {
     background-color: hsl(185, 75%, 39%);
-
     background-image: url(./images/bg-pattern-bottom.svg);
 
 }
@@ -68,11 +66,12 @@ body {
 #card {
     background-color: white;
     position: absolute;
-    width: 40%;
+    max-width: 500px;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     border-radius: 20px;
+    box-shadow: -5px -5px 20px 20px rgb(68, 247, 253);
 
 
 }
@@ -119,14 +118,14 @@ body {
 
 .social-texto {
 
-    font-size: 0.6em;
+    font-size: 0.5em;
     color: gray;
     font-family: 'Kumbh Sans', sans-serif;
     font-weight: 200;
 }
 
 .social-numeros {
-    font-size: 3em;
+    font-size: 2.8em;
 }
 
 
@@ -144,12 +143,12 @@ body {
 
     #alinhador-social {
 
-        font-size: 0.5em;
+        font-size: 0.6em;
 
     }
 
     .social-numeros {
-        font-size: 3em
+        font-size: 2.8em
     }
 
     #centralizador-texto {
@@ -182,7 +181,7 @@ body {
         font-size: 11px;
         text-align: center;
         position: relative;
-        top: 435px;
+        top: 445px;
     }
 
 
