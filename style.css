@@ -169,7 +169,9 @@ body {
 
 .nome {
     letter-spacing: 0.03rem;
-    color: hsl(229deg, 23%, 23%);
+    color: rgb(0, 0, 0);
+    font-weight: 900;
+    font-size: 0.9rem;
 }
 
 .identificacao {
