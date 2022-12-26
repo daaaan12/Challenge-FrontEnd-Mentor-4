@@ -1,47 +1,54 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Profile card component</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
 
-  <link rel="stylesheet" href="./style.css">
+    <title>Frontend Mentor | Profile card component</title>
 
-</head>
-<body>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <main class="card">
+      <div class="card-header">
+        <img class="img-victor" src="./images/image-victor.jpg" alt="" />
 
+        <div class="identificacao">
+          <h2 class="nome">Victor Crest</h2>
+          <p class="idade">26</p>
+        </div>
+        <p class="local">London</p>
+      </div>
 
-<div id="alinhador-card">
+      <div>
+        <ul class="stats-card">
 
-  <div id="card">
-    <img class="img-topo" src="./images/bg-pattern-card.svg" alt="">
-    <div class="alinhador-victor">
-    <img class="img-victor" src="./images/image-victor.jpg" alt="">
-  </div>
+          <li class="stat-card">
+            <span class="stats-numero">80K</span>
+            <p class="stats-texto">Followers</p>
+          </li>
 
-    <div id="centralizador-texto">
-      <h1>Victor Crest <span class="gray"> 26</span></h1>
-      <h3 class="gray alinha-london">London</h3>
-    </div>
+          <li class="stat-card">
+            <span class="stats-numero">803K</span>
+            <p class="stats-texto">Likes</p>
+          </li>
 
-    <hr>
-    
-    <div id="alinhador-social">
-      <h2 class="social-numeros">80K <span class="social-texto">Followers</span></h2>
-      <h2 class="social-numeros">803K <span class="social-texto">Likes</span></h2>
-      <h2 class="social-numeros">1.4K <span class="social-texto">Photos</span></h2> 
-    </div> 
+          <li class="stat-card">
+            <span class="stats-numero">1.4K</span>
+            <p class="stats-texto">Photos</p>
+          </li>
 
-  </div>
-</div>
-
-<div class="attribution">
-  Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-  Coded by <a href="#">Danilo Costa</a>.
-</div>
-
-</body>
+        </ul>
+      </div>
+    </main>
+  </body>
 </html>
+
